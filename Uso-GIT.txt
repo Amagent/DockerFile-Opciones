@@ -1,0 +1,12 @@
+
+// Para ver los archivos
+git status
+
+
+// Para cargar los cambios 
+git add .  
+git commit -am "nombre de los cambioa
+
+
+// para traer la ultima version
+git pull origin main
