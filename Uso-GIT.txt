@@ -2,6 +2,8 @@
 // Para ver los archivos
 git status
 
+// para traer la ultima version
+git pull -u origin main
 
 // Para cargar los cambios 
 git add .  

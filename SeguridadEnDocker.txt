@@ -1,0 +1,13 @@
+https://www.contenedorinseguro.net/2019/10/definiendo-usuario-contenedor-docker.html
+
+
+https://es.linkedin.com/pulse/seguridad-en-docker-remapeando-usuarios-root-d%C3%A1maso-rodr%C3%ADguez-b7fuf
+
+
+
+RUN addgroup -S usuariocontenedor && \
+ adduser -S -s /bin/false -G  usuariocontenedor usuariocontenedor  && \
+ chown -R usuariocontenedor:usuariocontenedor /app
+USER usuariocontenedor
+
+
